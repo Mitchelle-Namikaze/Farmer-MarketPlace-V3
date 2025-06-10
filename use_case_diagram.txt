@@ -1,0 +1,34 @@
+Smart Student Wallet: Use Case Diagram
+
+Actors:
+- Student (primary user)
+
+Use Cases:
+1. Register Account
+   - Description: Student signs up with email and password, receives verification link.
+   - Precondition: Student has an email account.
+   - Postcondition: Account is created and verified.
+2. Log In
+   - Description: Student enters email and password to access the app, with option to reset password.
+   - Precondition: Student has a registered account.
+   - Postcondition: Student is logged in or receives error.
+3. Add Expense
+   - Description: Student inputs expense details (amount, category, date) and saves it.
+   - Precondition: Student is logged in.
+   - Postcondition: Expense is recorded and visible.
+4. View Dashboard
+   - Description: Student sees mock balance, pie chart, and expense summary.
+   - Precondition: Student is logged in.
+   - Postcondition: Dashboard data is displayed.
+5. Set Budget
+   - Description: Student sets a monthly budget and gets a notification at 80% usage.
+   - Precondition: Student is logged in.
+   - Postcondition: Budget is set and notification triggered if applicable.
+6. View Transaction History
+   - Description: Student views all expenses with filters by date or category.
+   - Precondition: Student is logged in.
+   - Postcondition: History is displayed with applied filters.
+
+Relationships:
+- Student interacts with all use cases.
+- "Log In" is a prerequisite for "Add Expense," "View Dashboard," "Set Budget," and "View Transaction History."

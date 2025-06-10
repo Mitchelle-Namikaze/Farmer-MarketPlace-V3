@@ -1,0 +1,7 @@
+Functional Requirements:
+1. User Registration: Students can sign up using an email address and a secure password, with an option to confirm their email via a verification link.
+2. User Login: Students can log in with their email and password, with a "Forgot Password" link to reset credentials.
+3. Expense Tracking: Students can manually input expenses with details (amount, category like Food/Transport/Books/Entertainment/Other, date), view the last 10 expenses in a list, and export them as a PDF.
+4. Dashboard: Displays a mock starting balance (e.g., $100), a pie chart showing spending distribution by category, and a summary of total expenses for the month.
+5. Budget Setting: Students can set a monthly budget (e.g., $200) and receive a notification when 80% is reached.
+6. Transaction History: Students can view a detailed history of all expenses with filters by date range or category.

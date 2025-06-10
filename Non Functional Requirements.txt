@@ -1,0 +1,7 @@
+Non-Functional Requirements:
+1. Performance: All screens load within 2 seconds on a standard 4G connection.
+2. Usability: Interface designed for students aged 16-25, with large buttons, clear labels, and minimal text input fields; supports both English and local languages (e.g., Krio).
+3. Scalability: Capable of handling up to 10,000 users with smooth performance during peak usage (e.g., start of semester).
+4. Availability: Accessible 99.9% of the time, with downtime scheduled for maintenance announced 48 hours in advance.
+5. Security: User data (emails, passwords) encrypted during transmission, with passwords stored using a secure hashing method (to be mocked in prototypes).
+6. Accessibility: Compliant with basic WCAG 2.1 standards (e.g., high contrast mode, screen reader support).

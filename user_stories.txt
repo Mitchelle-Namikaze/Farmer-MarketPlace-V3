@@ -1,8 +1,0 @@
-Smart Student Wallet: User Stories
-
-1. As a student, I want to register with my email and password so I can create a secure account.
-2. As a student, I want to log in with my email and password so I can access my wallet features.
-3. As a student, I want to add an expense with amount, category, and date so I can track my spending.
-4. As a student, I want to see my dashboard with a mock balance and pie chart so I can monitor my finances.
-5. As a student, I want to set a monthly budget so I can avoid overspending.
-6. As a student, I want to view my transaction history with filters so I can analyze my spending patterns.
